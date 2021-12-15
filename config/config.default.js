@@ -30,11 +30,11 @@ module.exports = appInfo => {
         },
         sequelize: {
             dialect: 'mysql',
-            host: '111.229.255.133',
+            host: '127.0.0.1',
             port: 3306,
             user: 'root',
             password: '123456',
-            database: 'www_mengmeng_sit',
+            database: 'database',
             pool: {
                 max: 5,
                 min: 0,
